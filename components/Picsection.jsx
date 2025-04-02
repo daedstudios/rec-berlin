@@ -1,19 +1,24 @@
+import Image from "next/image";
 import React from "react";
 
 export const Picsection = () => {
   return (
-    <div>
+    <div className="flex justify-around">
       <div className="flex justify-around p-5">
         <h1 className="">RESIDENTS</h1>
         <p className="text-right p-5">
           We have zero tolerance for discrimination, harasment,.
         </p>
       </div>
-      <section className="flex flex-row w-[100%]">
-        <img src="club1.png" alt="" />
-        <img src="club2.png" alt="" />
-        <img src="club3.png" alt="" />
-      </section>
+      <div className="relative h-40 w-20">
+        <Image src={"/Frame_20.png"} alt="Frame 20" fill />
+      </div>
+      <div className="relative h-40 w-20">
+        <Image src={"/Frame27.png"} alt="Frame 27" fill objectFit="cover" />
+      </div>
+      <div className="relative h-40 w-20">
+        <Image src={"/Frame28.png"} alt="Frame 28" fill />
+      </div>
     </div>
   );
 };
