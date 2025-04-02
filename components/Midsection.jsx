@@ -4,9 +4,11 @@ import { MoveUpRight } from "lucide-react";
 export const Midsection = () => {
   return (
     <div>
-      <div className="flex justify-around">
-        <h1 className="text-right p-5">UPCOMING EVENTS</h1>
-        <p className="p-5">
+      <div className="flex flex-col  justify-around p-10">
+        <h1 className="text-right font-stretch-semi-condensed text-[40px]">
+          UPCOMING EVENTS
+        </h1>
+        <p className="">
           We have zero tolerance for discrimination, harasment..
         </p>
       </div>

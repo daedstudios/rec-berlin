@@ -6,6 +6,7 @@ import Image from "next/image";
 import { useState } from "react";
 import Prettysection from "@/components/Prettysection";
 import Picsection from "@/components/Picsection";
+import { Lastpices } from "@/components/Lastpices";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Midsection />
       <Prettysection />
       <Picsection />
+      <Lastpices />
     </>
   );
 }
