@@ -10,15 +10,17 @@ export const Picsection = () => {
           We have zero tolerance for discrimination, harasment,.
         </p>
       </div>
-      <div className="relative h-40 w-20">
-        <Image src={"/Frame_20.png"} alt="Frame 20" fill />
-      </div>
-      <div className="relative h-40 w-20">
-        <Image src={"/Frame27.png"} alt="Frame 27" fill objectFit="cover" />
-      </div>
-      <div className="relative h-40 w-20">
-        <Image src={"/Frame28.png"} alt="Frame 28" fill />
-      </div>
+      <section className="flex flex-row w-full overflow-hidden px-4 py-6 rounded-3xl">
+        <div className="relative h-40 w-20">
+          <Image src={"/Frame222.png"} alt="Frame 222" fill objectFit="cover" />
+        </div>
+        <div className="relative h-40 w-20">
+          <Image src={"/Frame27.png"} alt="Frame 27" fill objectFit="cover" />
+        </div>
+        <div className="relative h-40 w-20">
+          <Image src={"/Frame28.png"} alt="Frame 28" fill objectFit="cover" />
+        </div>
+      </section>
     </div>
   );
 };
