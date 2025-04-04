@@ -4,7 +4,7 @@ import Link from "next/link";
 export const Prettysection = () => {
   return (
     <div>
-      <div className="flex flex-row flex-wrap justify-around p-10">
+      <div className="flex flex-row flex-wrap justify-between mx-auto items-center py-10 w-full max-w-[77rem]">
         <h1 className="font-stretch-semi-condensed text-[40px]">
           FEEL THE TECH <br />
           VIBE
@@ -15,7 +15,7 @@ export const Prettysection = () => {
           </p>
         </Link>
       </div>
-      <div className="flex flex-row justify-around">
+      <div className="flex flex-row flex-wrap justify-between mx-auto items-center py-10 w-full max-w-[77rem]">
         <p className="text-[#D7FF48] ">
           see events <MoveUpRight className="inline" />
         </p>
