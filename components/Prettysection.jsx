@@ -10,13 +10,13 @@ export const Prettysection = () => {
           VIBE
         </h1>
         <Link href="/Prettypage">
-          <p className="text-red-800 ">
+          <p className="text-[#D7FF48] ">
             see events <MoveUpRight className="inline" />
           </p>
         </Link>
       </div>
       <div className="flex flex-row justify-around">
-        <p className="text-red-800 ">
+        <p className="text-[#D7FF48] ">
           see events <MoveUpRight className="inline" />
         </p>
         <h1 className="font-stretch-semi-condensed text-[40px]">
