@@ -1,10 +1,12 @@
 import Image from "next/image";
 import React from "react";
+import { MoveUpRight } from "lucide-react";
+import { Autour_One } from "next/font/google";
 
 export const Lastpices = () => {
   return (
     <div>
-      <div className="flex flex-col flex-wrap justify-around p-10 ">
+      <div className="w-[100%] flex flex-col flex-wrap justify-around  ">
         <h1 className="text-right p-5">GALLERY</h1>
         <p>We have zero tolerance for discrimination, harasment,.</p>
       </div>
@@ -27,6 +29,16 @@ export const Lastpices = () => {
               src={"/Frame 22.png"}
               alt="Frame 22"
               fill
+              objectFit="cover"
+            />
+          </div>
+          <div className="flex flex-row gap-4 items-end justify-end">
+            <p>see more </p>
+            <Image
+              src={"/ARROW.png"}
+              alt="ARROW"
+              height={24}
+              width={24}
               objectFit="cover"
             />
           </div>
