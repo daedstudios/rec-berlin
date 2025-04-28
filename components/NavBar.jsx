@@ -4,8 +4,8 @@ import React from "react";
 import Image from "next/image";
 export const NavBar = () => {
   return (
-    <div className="flex flex-row w-full justify-between bg-gray-900/80 px-[2rem] h-[6rem]">
-      <div className="w-[6rem] h-auto relative">
+    <div className="top-0 z-80 absolute flex flex-row w-full justify-between  px-[2rem] h-[6rem] bg-transparent max-w-screen">
+      <div className="w-[3rem] h-auto relative bg-transparent">
         <Link href="/">
           <Image className="object-contain" src="/LOGO.svg" alt="Logo" fill />
         </Link>
