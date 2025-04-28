@@ -5,15 +5,15 @@ export const Midsection = () => {
   return (
     // <div className="">
     <>
-      <div className="flex flex-col max-w-[77rem] justify-center py-10 mx-auto">
-        <h1 className="text-right font-stretch-semi-condensed text-[40px]">
+      <div className="w-screen flex flex-col max-w-[77rem] justify-between py-3 mx-auto">
+        <h1 className="text-right font-stretch-semi-condensed text-[20px] p-5">
           UPCOMING EVENTS
         </h1>
-        <p className="">
+        <p className="p-5">
           We have zero tolerance for discrimination, harasment..
         </p>
       </div>
-      <div className="w-full flex flex-col justify-center max-w-[77rem] overflow-hidden items-center align-middle  divide-y py-3 mx-auto">
+      <div className="w-full flex flex-col justify-center max-w-[77rem] overflow-hidden items-center align-middle  divide-y py-3 mx-auto p-5">
         <p className=" flex flex-row justify-between w-full py-3 text-center">
           2023-10-01 Bass Drop Festival Tickets
           <MoveUpRight className="inline text-[#D7FF48]" />
