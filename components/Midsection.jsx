@@ -14,7 +14,7 @@ export const Midsection = () => {
         </p>
       </div>
       <div className="w-full flex flex-col justify-center max-w-[77rem] overflow-hidden items-center align-middle  divide-y py-3 mx-auto p-5">
-        <p className=" flex flex-row justify-between w-full py-3 text-center">
+        <p className="flex flex-row justify-between w-full py-3 text-center">
           2023-10-01 Bass Drop Festival Tickets
           <MoveUpRight className="inline text-[#D7FF48]" />
         </p>
